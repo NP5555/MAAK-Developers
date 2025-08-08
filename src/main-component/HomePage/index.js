@@ -1,0 +1,32 @@
+import React, {Fragment} from 'react';
+import Navbar from '../../components/Navbar'
+import Hero from '../../components/hero';
+import About from '../../components/about';
+import ProjectSection from '../../components/Projects';
+import ServiceSection from '../../components/Services';
+import FunFact from '../../components/FunFact';
+import TeamSection from '../../components/TeamSection';
+import Testimonial from '../../components/Testimonial';
+import BlogSection from '../../components/BlogSection';
+import Footer from '../../components/footer';
+import Scrollbar from '../../components/scrollbar'
+import Logo from '../../images/logo.svg'
+
+const HomePage =() => {
+    return(
+        <Fragment>
+            <Navbar Logo={Logo} hclass={'header-style-1'}/>
+            <Hero/>
+            <About abimg={'/projects/WhatsApp Image 2025-08-08 at 12.10.45 PM.jpeg'}/>
+            <ProjectSection/>
+            <ServiceSection/>
+            <FunFact/>
+            <TeamSection/>
+            <Testimonial/>
+            <BlogSection/>
+            <Footer/>
+            <Scrollbar/>
+        </Fragment>
+    )
+};
+export default HomePage;

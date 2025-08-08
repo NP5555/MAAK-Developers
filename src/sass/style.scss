@@ -1,0 +1,380 @@
+/*------------------------------------------------------------------
+[Master Stylesheet]
+Theme Name:     MAAK - Property Development React Template
+Version:        1.0.0
+-------------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+1. General
+	1.1 Theme Reset Style
+	1.2 Global Elements
+
+2. header
+	2.1 topbar
+	2.2 navigation
+
+3. content
+	3.1 wpo-hero-slider
+	3.2 wpo-about-area
+	3.3 wpo-project-area
+	3.4 wpo-service-area
+	3.5 wpo-fun-fact-section
+	3.6 wpo-team-section
+	3.7 wpo-testimonial-area
+	3.8 wpo-blog-section
+
+4. wpo-footer
+
+5. Home-style-2
+   5.1 wpo-about-area-s2
+   5.2 wpo-project-area-s2
+
+ 6. Home-style-3 
+  	6.1 wpo-about-area-s3
+	6.2 wpo-service-area-s2
+	6.3 wpo-project-area-s3
+	6.4 wpo-pricing-section
+
+ 7. Home-style-3 
+  	7.1 wpo-about-area-s4
+	7.2 wpo-service-area-s3
+	7.3 wpo-pricing-section-s2
+	7.4 wpo-blog-section-s2
+
+ 8. Home-style-3 
+  	8.1 wpo-about-area-s4
+	
+9. wpo-about-section
+   9.1 wpo-fun-fact-section-s2
+
+10. wpo-service-single
+
+11. wpo-project-single
+
+12. wpo-cart-page-style
+
+13. wpo-checkout-page-style
+
+14. wpo-shop-page
+
+15. wpo-shop-single-page
+
+16. wpo-team-single
+
+17. wpo-blog-pg-section
+
+18. wpo-blog-single-section
+
+19. wpo-contact-pg-section
+
+20. error-404-section
+
+
+----------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+1. General
+----------------------------------------------------------------*/
+
+// helpers
+@import "helpers/variables";
+@import "helpers/functions";
+@import "helpers/mixins";
+
+// base
+@import "base/base";
+
+
+// components
+@import "components/section-title";
+@import "components/buttons";
+@import "components/form";
+@import "components/social-links";
+@import "components/page-title";
+@import "components/preloader";
+@import "components/blog-sidebar";
+@import "components/shop-sidebar";
+@import "components/pagination";
+
+// layout
+@import "layout/header";
+@import "layout/hero-slider";
+@import "layout/footer";
+
+// components
+@import "components/sticky-header";
+
+
+// page
+@import "page/home-default";
+
+@import "page/_home-style2";
+
+@import "page/_home-style3";
+
+@import "page/_home-style4";
+
+@import "page/_home-style5";
+
+
+
+@import "page/_about";
+
+@import "page/_service";
+
+@import "page/_project";
+
+@import "page/_coming-soon";
+
+@import "page/_cart";
+
+@import "page/_checkout";
+
+@import "page/_shop";
+
+@import "page/_shop-single";
+
+@import "page/_team-single";
+
+@import "page/_portfolio-single";
+
+@import "page/_blog";
+
+@import "page/_blog-single";
+
+@import "page/_contact";
+
+@import "page/_error-404";
+
+
+/* Custom Hero Image Styling for Maak Residence Phase 2 */
+.static-hero .static-hero-img-inner img {
+    width: 832px;
+    height: 826px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.static-hero .static-hero-img-inner img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Hero slider image styling */
+.wpo-hero-slider .slide-inner {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Projects Section Image Sizing */
+.wpo-project-item .wpo-project-img img {
+    width: 640px;
+    height: 470px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-project-item .wpo-project-img img:hover {
+    transform: scale(1.05);
+}
+
+/* ProjectsS2 Section Image Sizing */
+.wpo-project-area-s2 .wpo-project-item .wpo-project-img img {
+    width: 640px;
+    height: 470px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-project-area-s2 .wpo-project-item .wpo-project-img img:hover {
+    transform: scale(1.05);
+}
+
+/* ProjectsS3 Section Image Sizing */
+.wpo-project-area-s3 .wpo-project-item .wpo-project-img img {
+    width: 640px;
+    height: 470px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-project-area-s3 .wpo-project-item .wpo-project-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive image sizing for Hero */
+@media (max-width: 1400px) {
+    .static-hero .static-hero-img-inner img {
+        width: 700px;
+        height: 694px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .static-hero .static-hero-img-inner img {
+        width: 600px;
+        height: 595px;
+    }
+}
+
+@media (max-width: 991px) {
+    .static-hero .static-hero-img-inner img {
+        width: 500px;
+        height: 496px;
+    }
+    
+    .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s2 .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s3 .wpo-project-item .wpo-project-img img {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 767px) {
+    .static-hero .static-hero-img-inner img {
+        width: 400px;
+        height: 397px;
+    }
+    
+    .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s2 .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s3 .wpo-project-item .wpo-project-img img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Responsive Projects Section */
+@media (max-width: 1199px) {
+    .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s2 .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s3 .wpo-project-item .wpo-project-img img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s2 .wpo-project-item .wpo-project-img img,
+    .wpo-project-area-s3 .wpo-project-item .wpo-project-img img {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Blog/News Section Image Sizing */
+.wpo-blog-item .wpo-blog-img img {
+    width: 868px;
+    height: 514px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-blog-item .wpo-blog-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Section S2 Image Sizing */
+.wpo-blog-section-s2 .wpo-blog-item .wpo-blog-img img {
+    width: 868px;
+    height: 514px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-blog-section-s2 .wpo-blog-item .wpo-blog-img img:hover {
+    transform: scale(1.05);
+}
+
+/* Blog List Page Image Sizing */
+.wpo-blog-pg-section .wpo-blog-content .entry-media img {
+    width: 868px;
+    height: 514px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-blog-pg-section .wpo-blog-content .entry-media img:hover {
+    transform: scale(1.05);
+}
+
+/* Blog Details Page Image Sizing */
+.wpo-blog-single-section .wpo-blog-single-content .entry-media img {
+    width: 868px;
+    height: 514px;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.3s ease;
+}
+
+.wpo-blog-single-section .wpo-blog-single-content .entry-media img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Blog Image Sizing */
+@media (max-width: 1199px) {
+    .wpo-blog-item .wpo-blog-img img,
+    .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-img img,
+    .wpo-blog-pg-section .wpo-blog-content .entry-media img,
+    .wpo-blog-single-section .wpo-blog-single-content .entry-media img {
+        width: 100%;
+        height: 450px;
+    }
+}
+
+@media (max-width: 991px) {
+    .wpo-blog-item .wpo-blog-img img,
+    .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-img img,
+    .wpo-blog-pg-section .wpo-blog-content .entry-media img,
+    .wpo-blog-single-section .wpo-blog-single-content .entry-media img {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wpo-blog-item .wpo-blog-img img,
+    .wpo-blog-section-s2 .wpo-blog-item .wpo-blog-img img,
+    .wpo-blog-pg-section .wpo-blog-content .entry-media img,
+    .wpo-blog-single-section .wpo-blog-single-content .entry-media img {
+        width: 100%;
+        height: 350px;
+    }
+}
+
+/* Enhanced slide content styling */
+.slide-subtitle p {
+    color: #585858;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    text-transform: none;
+}
+
+@media (max-width: 767px) {
+    .slide-subtitle p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
