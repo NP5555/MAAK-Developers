@@ -19,13 +19,13 @@ const Teams = [
     },
     {
         Id: '3',
-        tImg:'https://images.unsplash.com/photo-1581092334651-ddf26d9a09d0?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+        tImg:'https://www.shutterstock.com/image-photo/asian-engineer-handsome-man-architect-600nw-2054685725.jpg',
         name:'Michael Chen',
         title:'Project Director',
     },
     {
         Id: '4',
-        tImg:'https://images.unsplash.com/photo-1581092157699-83c90752400a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZW5naW5lZXJ8ZW58MHx8MHx8fDA%3D',
+        tImg:'https://www.shutterstock.com/image-photo/happy-confident-young-attractive-arabic-600nw-2107625390.jpg',
         name:'Abdullah Omar',
         title:'Interior Design Lead',
     },
