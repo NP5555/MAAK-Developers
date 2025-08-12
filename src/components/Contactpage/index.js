@@ -20,7 +20,7 @@ const Contactpage = () => {
                                         </div>
                                         <div className="office-info-text">
                                             <h2>Address</h2>
-                                            <p>King Abdul Wahed Ahmed Rashid bin Shabib, Al Fawz 3rd - Office M205, Dubai, UAE</p>
+                                            <p>Al Fawz 3rd - Office M205, Dubai</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -65,7 +65,7 @@ const Contactpage = () => {
             </div> 
             <section className="wpo-contact-map-section">
                 <div className="wpo-contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.9147703055!2d-74.11976314309273!3d40.69740344223377!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew+York%2C+NY%2C+USA!5e0!3m2!1sen!2sbd!4v1547528325671"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.543515203284!2d55.27193831501166!3d25.19719788388752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f433fdc0bde75%3A0x7f5ab8c7a04bb2c!2s205%20-%202020%20Building%2C%20Sheikh%20Zayed%20Rd%2C%20Dubai%2C%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1692174589123"></iframe>
                 </div>
             </section>
         </section>

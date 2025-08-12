@@ -15,7 +15,10 @@ const Hero =() => {
                                         <h2>MAAK</h2>
                                     </div>
                                     <div data-swiper-parallax="300" className="slide-title">
-                                        <h2>Building Your Dream Home With <span>Excellence</span></h2>
+                                        <h2>Redefining <span>Urban Living</span></h2>
+                                    </div>
+                                    <div data-swiper-parallax="350" className="slide-subtitle">
+                                        <p>A legacy continues from Pakistan to Dubai - Over 70 years of engineering excellence in construction and urban development.</p>
                                     </div>
                                     <div data-swiper-parallax="400" className="slide-btn">
                                         <Link className="theme-btn" to="/project">Discover Properties</Link>

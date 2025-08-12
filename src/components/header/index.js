@@ -43,32 +43,32 @@ const Header = (props) => {
                                     <ul className="nav navbar-nav mb-2 mb-lg-0">
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/">Home</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/home">Home Style 1</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home2">Home Style 2</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home3">Home Style 3</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home4">Home Style 4</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/home5">Home Style 5</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">About</Link></li>
                                         <li className="menu-item-has-children">
                                             <Link to="/service">Service</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/service">Service</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/service-s2">Service S2</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/service-single/1">Service Single</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/project">Project</Link>
-                                            <ul className="sub-menu">
+                                            {/* <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/project">Project</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/project-s2">Project S2</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/project-single/1">Project Single</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
-                                        <li className="menu-item-has-children">
+                                        {/* <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/blog">Blog</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/blog">Blog right sidebar</Link></li>
@@ -86,8 +86,8 @@ const Header = (props) => {
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
-                                        <li className="menu-item-has-children">
+                                        </li> */}
+                                        {/* <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/">Pages</Link>
                                             <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/shop">Shop</Link></li>
@@ -101,7 +101,7 @@ const Header = (props) => {
                                                 <li><Link onClick={ClickHandler} to="/login">Login</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/register">Register</Link></li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li><Link onClick={ClickHandler} to="/contact">Contact</Link></li>
                                     </ul>
                                 </div>
@@ -124,7 +124,7 @@ const Header = (props) => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div className="mini-cart">
+                                    {/* <div className="mini-cart">
                                         <button className="cart-toggle-btn" onClick={() => setcartState(!cartActive)}>
                                             {" "}
                                             <i className="fi ti-shopping-cart"></i>{" "}
@@ -169,7 +169,7 @@ const Header = (props) => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                         </div>

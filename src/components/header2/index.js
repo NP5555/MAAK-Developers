@@ -51,13 +51,13 @@ export default class Header2 extends Component {
                                         <ul className="nav navbar-nav mb-2 mb-lg-0">
                                             <li className="menu-item-has-children">
                                                 <Link onClick={ClickHandler} to="/">Home</Link>
-                                                <ul className="sub-menu">
+                                                {/* <ul className="sub-menu">
                                                     <li><Link onClick={ClickHandler} to="/home">Home Style 1</Link></li>
                                                     <li><Link onClick={ClickHandler} to="/home2">Home Style 2</Link></li>
                                                     <li><Link onClick={ClickHandler} to="/home3">Home Style 3</Link></li>
                                                     <li><Link onClick={ClickHandler} to="/home4">Home Style 4</Link></li>
                                                     <li><Link onClick={ClickHandler} to="/home5">Home Style 5</Link></li>
-                                                </ul>
+                                                </ul> */}
                                             </li>
                                             <li><Link onClick={ClickHandler} to="/about">About</Link></li>
                                             <li className="menu-item-has-children">

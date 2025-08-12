@@ -21,7 +21,7 @@ const Footer = (props) =>{
                             <div className="logo widget-title">
                                 <Link onClick={ClickHandler} className="logo" to="/"><img src={Logo} alt=""/></Link>
                             </div>
-                            <p>MAAK Developer is a premier architectural and interior design firm in Dubai, specializing in creating innovative spaces that blend functionality with aesthetic excellence. We transform visions into reality with precision and creativity.</p>
+                            <p>MAAKDREAM is the real estate brand of the future, born from the legacy of MAAKSONS Engineering Corporation Ltd. With over 70 years of experience in delivering national megaprojects, we bring engineering excellence to lifestyle development in Dubai.</p>
                             <ul>
                                 <li>
                                     <Link onClick={ClickHandler} to="/">
@@ -46,8 +46,8 @@ const Footer = (props) =>{
                             </ul>
                         </div>
                     </div>
-                    <div className="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
-                        <div className="widget link-widget">
+                    <div className="col col-xl-1  col-lg-4 col-md-6 col-sm-12 col-12">
+                        {/* <div className="widget link-widget">
                             <div className="widget-title">
                                 <h3>Our Services</h3>
                             </div>
@@ -58,7 +58,7 @@ const Footer = (props) =>{
                                 <li><Link onClick={ClickHandler} to="/service-single">Modern Furniture</Link></li>
                                 <li><Link onClick={ClickHandler} to="/service-single">Complete Decoration</Link></li>
                             </ul>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="col col-xl-3  col-lg-4 col-md-6 col-sm-12 col-12">
                         <div className="widget wpo-service-link-widget">
@@ -67,7 +67,7 @@ const Footer = (props) =>{
                             </div>
                             <div className="contact-ft">
                                 <ul>
-                                    <li><i className="fi flaticon-location"></i>King Abdul Wahed Ahmed Rashid bin Shabib, Al Fawz 3rd - Office M205, Dubai, UAE</li>
+                                    <li><i className="fi flaticon-location"></i>205, 2020 Building Sheikh Zayed Road Dubai</li>
                                     <li><i className="fi flaticon-telephone"></i>04 5546928 | 055 8690761</li>
                                     <li><i className="fi flaticon-email"></i>info@maakdream.com</li>
                                 </ul>
@@ -95,7 +95,7 @@ const Footer = (props) =>{
                 <div className="row">
                     <div className="col col-xs-12">
                         <ul>
-                            <li>&copy; 2024 MAAK Developer. All Rights Reserved.</li>
+                            <li>&copy; 2024 MAAKDREAM. All Rights Reserved.</li>
                             <li><Link onClick={ClickHandler} to="/">Terms of use |</Link> <Link onClick={ClickHandler} to="/">Privacy Environmental Policy</Link></li>
                         </ul>
                     </div>
@@ -104,6 +104,6 @@ const Footer = (props) =>{
         </div>
     </footer>
   )
-} 
+}
 
 export default Footer;

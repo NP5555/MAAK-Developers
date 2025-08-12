@@ -20,9 +20,9 @@ const BlogSidebar = (props) => {
         <div className={`col col-lg-4 col-12 ${props.blLeft}`}>
             <div className="blog-sidebar">
                 <div className="widget about-widget">
-                    <div className="img-holder">
+                    {/* <div className="img-holder">
                         <img src={about} alt=""/>
-                    </div>
+                    </div> */}
                     <h4>Jenny Watson</h4>
                     <p>Hi! beautiful people. I`m an authtor of this blog. Read our post - stay with us</p>
                     <div className="social">

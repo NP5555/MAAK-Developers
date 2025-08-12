@@ -2,26 +2,24 @@ import React from 'react'
 
 
 const FunFact = (props) => {
-
+// THESE ARE REAL NUMBERS FOR  MAAK DEVELOPERS
     const funfact = [
         {
-            title: '25',
+            title: '70+',
             subTitle: 'Years Of Experience',
         },
         {
-            title: '32',
-            subTitle: 'Expert Specialist',
+            title: '80+',
+            subTitle: 'Expert Specialists',
         },
         {
-            title: '321+',
-            subTitle: 'Successful Project',
+            title: '20+',
+            subTitle: 'Successful Projects',
         },
         {
-            title: '210',
+            title: '1100+',
             subTitle: 'Happy Customers',
         },
-
-
     ]
 
 
