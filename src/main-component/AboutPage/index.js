@@ -1,30 +1,25 @@
 import React, {Fragment} from 'react';
 import Navbar from '../../components/Navbar'
-import PageTitle from '../../components/pagetitle'
-import About from '../../components/about'
-import ProjectSection from '../../components/Projects';
+import About from '../../components/about';
 import ServiceSection from '../../components/Services';
-import Pricing from '../../components/Pricing'
-import FunFact from '../../components/FunFact'
+import FunFact from '../../components/FunFact';
 import TeamSection from '../../components/TeamSection';
 import Testimonial from '../../components/Testimonial';
-import Footer from '../../components/footer'
+import Footer from '../../components/footer';
 import Scrollbar from '../../components/scrollbar'
 import Logo from '../../images/logo.svg'
+import maakResidence2 from '../../images/projects/maak-residence-2.jpg';
 
 const AboutPage =() => {
     return(
         <Fragment>
-            <Navbar Logo={Logo}/>
-            <PageTitle pageTitle={'About Us'} pagesub={'About'}/> 
-            <About abimg={'/projects/WhatsApp Image 2025-08-08 at 12.10.44 PM.jpeg'}/>
-            <ProjectSection/>
+            <Navbar Logo={Logo} hclass={'header-style-1'}/>
+            <About abimg={maakResidence2}/>
             <ServiceSection/>
-            <FunFact fnClass={'wpo-fun-fact-section-s2'}/>
-            <Pricing/>
+            <FunFact/>
             <TeamSection/>
             <Testimonial/>
-            <Footer ftClass={'wpo-site-footer-s2'}/>
+            <Footer/>
             <Scrollbar/>
         </Fragment>
     )

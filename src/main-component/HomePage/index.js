@@ -11,13 +11,14 @@ import BlogSection from '../../components/BlogSection';
 import Footer from '../../components/footer';
 import Scrollbar from '../../components/scrollbar'
 import Logo from '../../images/logo.svg'
+import maakResidence1 from '../../images/projects/maak-residence-1.jpg';
 
 const HomePage =() => {
     return(
         <Fragment>
             <Navbar Logo={Logo} hclass={'header-style-1'}/>
             <Hero/>
-            <About abimg={'/projects/WhatsApp Image 2025-08-08 at 12.10.45 PM.jpeg'}/>
+            <About abimg={maakResidence1}/>
             <ProjectSection/>
             <ServiceSection/>
             <FunFact/>

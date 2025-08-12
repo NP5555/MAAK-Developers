@@ -1,57 +1,42 @@
-import React from 'react'
+import React from "react";
 import { Link } from 'react-router-dom'
-import VideoModal from '../../components/ModalVideo'
+import maakResidence1 from '../../images/projects/maak-residence-1.jpg';
+import maakResidence2 from '../../images/projects/maak-residence-2.jpg';
 
-const About2 = (props) => {
-    const ClickHandler = () => {
-        window.scrollTo(10, 0);
-    }
+const About2 = () => {
     return (
-        <div className="wpo-about-area-s2 section-padding">
+        <section className="about-section section-padding">
             <div className="container">
-                <div className="row align-items-center">
-                    <div className="col-lg-6 col-md-12 col-sm-12">
-                        <div className="wpo-about-img">
-                            <div className="wpo-about-img-left">
-                                <img src="/projects/WhatsApp Image 2025-08-08 at 12.10.45 PM.jpeg" alt=""/>
-                                    <div className="wpo-about-img-text">
-                                        <h2>25+</h2>
-                                        <p>Years of Experience</p>
-                                    </div>
+                <div className="row">
+                    <div className="col-lg-6 col-md-12 col-12">
+                        <div className="about-content">
+                            <div className="section-title">
+                                <span>About Us</span>
+                                <h2>Building Excellence Since 2010</h2>
                             </div>
-                            <div className="wpo-about-img-right">
-                                <img src="/projects/WhatsApp Image 2025-08-08 at 12.10.44 PM.jpeg" alt=""/>
+                            <div className="about-img">
+                                <img src={maakResidence1} alt=""/>
+                            </div>
+                            <p>We are a leading construction company specializing in luxury residential and commercial developments across the UAE. Our commitment to quality and innovation has made us a trusted name in the industry.</p>
+                            <div className="about-img">
+                                <img src={maakResidence2} alt=""/>
+                            </div>
+                            <p>With over a decade of experience, we have successfully delivered numerous landmark projects, including the prestigious Maak Residence in Dubai South and the iconic Aizel Tower in Warsan.</p>
+                            <div className="btn-wrap">
+                                <Link to="/about" className="theme-btn">Learn More</Link>
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 col-sm-12">
-                        <div className="wpo-about-text">
-                            <div className="wpo-about-title">
-                                <span>About Us</span>
-                                <h2>We Offer You Professional Property Development</h2>
-                            </div>
-                            <p>MAAK Developer is a premier property development company based in Dubai, UAE. We specialize in creating exceptional residential and commercial properties that combine modern design with sustainable practices.</p>
-                            <ul className="ab-list">
-                                <li>We provide comprehensive property development services.</li>
-                                <li>We have a professional team of architects and designers.</li>
-                                <li>We work with sustainable building practices and materials.</li>
-                            </ul>
-                            <div className="btns">
-                                <Link to="/about" onClick={ClickHandler} className="theme-btn">Discover More</Link>
-                                <ul>
-                                    <li className="video-holder">
-                                        <VideoModal />
-                                    </li>
-                                    <li className="video-text">
-                                        Watch Our Video
-                                    </li>
-                                </ul>
+                    <div className="col-lg-6 col-md-12 col-12">
+                        <div className="about-img-wrap">
+                            <div className="about-img">
+                                <img src={maakResidence1} alt=""/>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

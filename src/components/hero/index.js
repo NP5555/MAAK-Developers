@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import maakResidence1 from '../../images/projects/maak-residence-1.jpg';
 
 const Hero =() => {
     return (
@@ -30,7 +31,7 @@ const Hero =() => {
                 <div className="static-hero-img">
                     <div className="static-hero-img-inner">
                         <img 
-                            src="/projects/WhatsApp Image 2025-08-08 at 12.10.43 PM.jpeg" 
+                            src={maakResidence1} 
                             alt="Maak Residence Phase 2"
                         />
                     </div>
