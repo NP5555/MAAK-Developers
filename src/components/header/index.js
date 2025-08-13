@@ -52,14 +52,14 @@ const Header = (props) => {
                                             </ul> */}
                                         </li>
                                         <li><Link onClick={ClickHandler} to="/about">About</Link></li>
-                                        <li className="menu-item-has-children">
+                                        {/* <li className="menu-item-has-children">
                                             <Link to="/service">Service</Link>
-                                            {/* <ul className="sub-menu">
+                                            <ul className="sub-menu">
                                                 <li><Link onClick={ClickHandler} to="/service">Service</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/service-s2">Service S2</Link></li>
                                                 <li><Link onClick={ClickHandler} to="/service-single/1">Service Single</Link></li>
-                                            </ul> */}
-                                        </li>
+                                            </ul>
+                                        </li> */}
                                         <li className="menu-item-has-children">
                                             <Link onClick={ClickHandler} to="/project">Project</Link>
                                             {/* <ul className="sub-menu">

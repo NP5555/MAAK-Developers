@@ -27,8 +27,8 @@ const FunFact = (props) => {
 
         <section className={`wpo-fun-fact-section pb-120 ${props.fnClass}`}>
             <div className="container">
-                <div className="row">
-                    <div className="col col-xs-12">
+                <div className="row mt-5">
+                    <div className="col col-xs-12 mt-5">
                         <div className="wpo-fun-fact-grids clearfix">
                             {funfact.map((funfact, fitem) => (
                                 <div className="grid" key={fitem}>

@@ -20,9 +20,9 @@ const HomePage =() => {
             <Hero/>
             <About abimg={maakResidence1}/>
             <ProjectSection/>
-            <ServiceSection/>
+            {/* <ServiceSection/> */}
             <FunFact/>
-            <TeamSection/>
+            {/* <TeamSection/> */}
             <Testimonial/>
             <BlogSection/>
             <Footer/>
